@@ -10,12 +10,12 @@ export default (pwa: PWAContext) => {
   nuxt.options.runtimeConfig.pwaManifest = pwa.manifest
 
   addServerHandler({
-    route: '/manifest.json',
+    route: '/manifest_pwa.json',
     handler: pwa._resolver.resolve('./runtime/server/manifest')
   })
 
   pwa._manifestMeta = {
     rel: 'manifest',
-    href: joinURL(nuxt.options.app.baseURL, 'manifest.json')
+    href: joinURL(nuxt.options.app.baseURL, 'manifest_pwa.json')
   }
 }

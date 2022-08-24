@@ -26,7 +26,7 @@ describe('module', async () => {
   })
 
   it('serve manifest', async () => {
-    const manifest = 'manifest.json'
+    const manifest = 'manifest_pwa.json'
     await expect(manifest).toBeServed()
   })
 

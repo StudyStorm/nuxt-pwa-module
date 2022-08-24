@@ -1,11 +1,11 @@
 {
-  "name": "@kevinmarrec/nuxt-pwa",
-  "version": "0.4.2",
+  "name": "@studystorm/nuxt-pwa",
+  "version": "0.4.3",
   "description": "Zero config PWA solution for Nuxt 3",
-  "author": "Kevin Marrec <kevin@marrec.io>",
+  "author": "StudyStorm <hello@studystorm.net>",
   "license": "MIT",
-  "homepage": "https://github.com/kevinmarrec/nuxt-pwa-module#readme",
-  "repository": "https://github.com/kevinmarrec/nuxt-pwa-module",
+  "homepage": "https://github.com/StudyStorm/nuxt-pwa-module#readme",
+  "repository": "https://github.com/StudyStorm/nuxt-pwa-module",
   "keywords": [
     "nuxt",
     "pwa",

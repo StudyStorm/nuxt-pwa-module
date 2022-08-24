@@ -13,11 +13,11 @@ export interface IconOptions {
   sizes: number[]
   maskablePadding: number
   targetDir: string
-  splash: {
+  splash: Partial<{
     backgroundColor: string | undefined
     devices: Device[]
     targetDir: string
-  }
+  }>
 }
 
 export interface ManifestIconMakerOptions {
