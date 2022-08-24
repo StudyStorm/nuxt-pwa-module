@@ -1,6 +1,6 @@
 {
   "name": "@studystorm/nuxt-pwa",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Zero config PWA solution for Nuxt 3",
   "author": "StudyStorm <hello@studystorm.net>",
   "license": "MIT",
